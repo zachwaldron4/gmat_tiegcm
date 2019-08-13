@@ -308,7 +308,7 @@ The code consists of a `util.py` file and a `tiegcm.py` file.  See the above sec
 #### The Updates (Summer 2019)<a class="anchor" id="tiegcmpy-changes"></a> 
 
 The changes I made are as follows:
-- Added helium to the diffusive quilibrium extrapolation above the boundary
+- Added helium to the diffusive equilibrium extrapolation above the boundary
 - Changed the top boundary to 25th pressure level to avoid errors from numerical issues (issue with Tiegcm2.0)
 - Changed any use of 'Z' for the vertical coordinate to 'ZG'
 - Any points that exist on the midpoint levels use 'ZGMID' as vertical coordinate.
@@ -618,7 +618,3 @@ Information on GMAT BatchEstimatorInv report file (what comes in Aqua_tiegcm.txt
  
  - I need put it all on Github.
 
-
-```python
-
-```
